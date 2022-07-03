@@ -1,0 +1,63 @@
+﻿{
+    "devDesc": {
+        "port": "RS485_1",
+        "add": "1",
+        "desc": "TmpAndHum ",
+        "model": "ZXtTmp"
+    },
+    "port": {
+        "Baud": "115200",
+        "bit": "8",
+        "Parity": "no"
+    },
+    "body": [
+        {
+            "ID": "0x30B0",
+            "name": "Tmp_HVolPhA"
+        },
+        {
+            "ID": "0x31AD",
+            "name": "Tmp_HVolPhB"
+        },
+        {
+            "ID": "0x4749",
+            "name": "Tmp_HVolPhC"
+        },
+        {
+            "ID": "0x2BD1",
+            "name": "Tmp_LVolPhA"
+        },
+        {
+            "ID": "0x3951",
+            "name": "Tmp_LVolPhB"
+        },
+        {
+            "ID": "0x31B1",
+            "name": "Tmp_LVolPhC"
+        },
+        {
+            "ID": "0x4383",
+            "name": "Tmp_LVolPhN"
+        },
+       {
+            "ID": "0x4283",
+            "name": "Tmp_Env"
+        },
+       {
+            "ID": "0x4483",
+            "name": "Hum_Env"
+        },
+       {
+            "ID": "0x4583",
+            "name": "Evt_DoLock"
+        },
+        {
+            "ID": "0x850E",
+            "name": "Evt_DstBoxSmk"
+        },
+       {
+            "ID": "0x8503",
+            "name": "Evt_DstBoxWtr"
+        }
+    ]
+}
